@@ -9,14 +9,14 @@ function Tours (props){
     // "price": "1,995"
     // }
 <>
-{props.data.map(value =>{
+{props.data.map(meme=>{
     return(
 <div> 
-{/* <p> Id of the city :{value.id} </p> */}
-<h4>Name of the city :{value.name} </h4>
-{/* <p> Description About the city:{value.info} </p>
-// <p> The average price of the trip : {value.price}</p> */}
-<img src={value.image} alt={value.name}/>
+{/* <p> Id of the city :{meme.id} </p> */}
+<h4>Name of the city :{meme.name} </h4>
+{/* <p> Description About the city:{meme.info} </p>
+<p> The average price of the trip : {meme.price}</p> */}
+<img src={meme.image} alt={meme.name}/>
 </div>
 
   )
