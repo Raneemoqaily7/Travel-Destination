@@ -15,7 +15,7 @@ function Tours (props){
 {/* <p> Id of the city :{value.id} </p> */}
 <h4>Name of the city :{value.name} </h4>
 {/* <p> Description About the city:{value.info} </p>
-<p> The average price of the trip : {value.price}</p> */}
+// <p> The average price of the trip : {value.price}</p> */}
 <img src={value.image} alt={value.name}/>
 </div>
 
