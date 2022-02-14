@@ -1,18 +1,14 @@
-// import logo from './logo.svg';
 
 import './App.css';
-import Header from './components/header/Header.js'
-import data from './data/db.json'
-import Tours from './components/tours/Tours.js' 
-import Footer from './components/footer/Footer.js'
+
+import Home from "./components/home/Home.js"
+
 
 function App() {
   return (
      <>
-    <Header color ="DodgerBlue"/>
-
-    <Tours data={data}/>
-    <Footer/>
+    
+    <Home/>
 
 </>
 
