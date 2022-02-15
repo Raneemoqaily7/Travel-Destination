@@ -1,5 +1,5 @@
-
-function Tours (props){
+import React from 'react';
+function Tour (props){
     return(
 /// {
     // "id": "rec6d6T3q5EBIdCfD",
@@ -11,11 +11,11 @@ function Tours (props){
 <>
 {props.data.map(value =>{
     return(
-<div> 
-{/* <p> Id of the city :{value.id} </p> */}
+<div key={value.id}> 
+ {/* <p>Id of the city :{value.id} </p> 
 <h4>Name of the city :{value.name} </h4>
-{/* <p> Description About the city:{value.info} </p>
-// <p> The average price of the trip : {value.price}</p> */}
+ <p> Description About the city:{value.info} </p>
+<p> The average price of the trip : {value.price}</p>  */}
 <img src={value.image} alt={value.name}/>
 </div>
 
@@ -28,4 +28,4 @@ function Tours (props){
 
     );
 }
-export default Tours ;
+export default Tour ;
