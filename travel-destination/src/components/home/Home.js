@@ -1,4 +1,5 @@
 
+
 import Header from  '../header/Header.js'
 import data from '../../data/db.json'
 import Tours from '../tours/Tours.js' 
@@ -19,3 +20,4 @@ function Home(){
     )
 }
 export default Home;
+
