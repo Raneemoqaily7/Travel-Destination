@@ -6,14 +6,19 @@ import Tours from '../tours/Tours.js'
 import Footer from '../footer/Footer.js'
 
 
+
 function Home(){
     return(
         <>
         <Header color ="DodgerBlue"/>
 
        <Tours data={data}/>
-<       Footer/>
+
+       <Footer/>
+
+
         </>
     )
 }
 export default Home;
+
