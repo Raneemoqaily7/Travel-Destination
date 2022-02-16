@@ -1,4 +1,6 @@
+
 import './App.css';
+
 
 import Home from "./components/home/Home.js"
 import TourDetails from "./components/TourDetails/TourDetails.js"
@@ -6,6 +8,7 @@ import {Routes,Route} from 'react-router-dom'
 function App() {
   return (
      <>
+
 
     <Routes>
 
@@ -16,6 +19,7 @@ function App() {
 
  
     
+
 
 </>
 
